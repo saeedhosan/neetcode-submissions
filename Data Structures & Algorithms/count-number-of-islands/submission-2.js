@@ -24,7 +24,7 @@ class Solution {
     }
 
     /**
-     * Breath-Fist-Search
+     * Depth-Fist-Search
      *
      * @param {character[][]} grid
      * @param {number} row
