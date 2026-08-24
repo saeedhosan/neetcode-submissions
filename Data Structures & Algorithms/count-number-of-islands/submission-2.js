@@ -6,7 +6,7 @@ class Solution {
     numIslands(grid) {
         //scan rows and cols
         //find unvisited
-        //check land & ++
+        //increment land
         //DFS algorithm
         
         const rows = grid.length;
