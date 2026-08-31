@@ -1,5 +1,6 @@
 class Solution {
     /**
+    *  Time: O(n), Space: O(k) 
      * @param {string} s
      * @param {string} t
      * @return {boolean}
