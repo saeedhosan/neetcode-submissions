@@ -19,9 +19,9 @@ class Solution {
         while (left < right) {
             const width = right - left;
             const height = Math.min(heights[left], heights[right]);
-            const waters = width * height;
+            const water  = width * height;
 
-            maxWater = Math.max(maxWater, waters);
+            maxWater = Math.max(maxWater, water);
 
             if (heights[left] < heights[right]) {
                 left++;
